@@ -2,61 +2,65 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  name: "Michael Kimeison",
+  initials: "MK",
+  url: "https://github.com/MikeKomari",
+  location: "Jakarta, Indonesia",
+  locationLink: "https://www.google.com/maps/place/jakarta",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Just a Sophomore student interested in Web Development and Machine Learning. I love developing things. I can speak many languages! Very active on Instagram, feel free to reach out!",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "A Self-motivated 2nd year student majoring in [School of Computer Science](/#education) interested in Web Development and Machine Learning at Binus University with a GPA of 3.93. Striving for knowledge, experience, network, and skills in organization. ",
   avatarUrl: "/me.png",
   skills: [
+    "Algorithm and Data Structures",
     "React",
     "Next.js",
     "Typescript",
     "Node.js",
+    "Javascript",
     "Python",
-    "Go",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
     "Java",
+    "Raylib",
     "C++",
+    "C",
+    "Adobe",
+    "3D Modelling",
+    "Multilingual",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // Update This
+    { href: "#", icon: NotebookIcon, label: "Portfolio" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "michael.kimeison@binus.ac.id",
+    tel: "+6282288552005",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/MikeKomari",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://linkedin.com/in/michkimei/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/mikekomari",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://www.youtube.com/channel/UCziLWj6HOJVdsJMqdYF8Qjw",
         icon: Icons.youtube,
         navbar: true,
       },
@@ -72,234 +76,307 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Binus Blockchain and Crypto Club",
+      href: "https://binusbcc.org",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      location: "Hybrid",
+      title: "Research and Development Staff",
+      logoUrl: "/bbcc.jpeg",
+      start: "Sept 2024",
+      end: "Now",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Research and development staff in charge of developing, maintaining, and managing the organization's website, ensuring its functionality, user experience, and alignment with organizational goals.",
     },
     {
-      company: "Shopify",
+      company: "Binus Student and Learning Club",
       badges: [],
-      href: "https://shopify.com",
+      href: "https://new.bslc.or.id/",
       location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+      title: "Student Mentor",
+      logoUrl: "/bslc.png",
+      start: "Sept 2024",
+      end: "Now",
+      description: (
+        <>
+          z
+          <ul>
+            <li>- Teaching various subjects to support student learning.</li>
+            <li>
+              - Provide academic guidance and help students strengthen their
+              problem-solving and technical skills.
+            </li>
+            <li>
+              - Foster a collaborative and inclusive learning environment to
+              encourage student engagement.
+            </li>
+            <li>
+              - Share personal insights and experiences to motivate students on
+              their academic journey.
+            </li>
+          </ul>
+          <br />
+        </>
+      ),
     },
     {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
+      company: "Bina Nusantara University",
+      href: "https://binus.ac.id/",
       badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
+      location: "Onsite",
+      title: "Freshmen Partner",
+      logoUrl: "/binus.png",
       start: "January 2020",
       end: "April 2020",
-      description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+      description: (
+        <>
+          As a Freshmen Partner (FP) for Binusian 2028, I serve as a facilitator
+          for a group of nine freshmen during their first year at Binus
+          University, helping them transition smoothly through both semesters.
+          <br />
+          <br />
+          My responsibilities include:
+          <ul>
+            <li>
+              - Building strong relationships with freshmen and creating a
+              supportive environment.
+            </li>
+            <li>
+              - Assisting freshmen in raising and presenting projects to the
+              wider community.
+            </li>
+            <li>
+              - Introducing them to campus regulations and ensuring they adapt
+              to university life.
+            </li>
+            <li>
+              - Facilitating the development of Binus Graduate Attributes (BGA),
+              focusing on Applied Management Skills (communication, planning &
+              organizing), Collaboration, Critical & Creative Thinking, and
+              Adaptability.
+            </li>
+          </ul>
+          <br />
+          This role enhances my own skills, especially in facilitation, empathy,
+          and leadership, while guiding freshmen through their academic and
+          personal growth.
+        </>
+      ),
     },
     {
-      company: "Splunk",
-      href: "https://splunk.com",
+      company: "Bina Nusantara University",
+      href: "https://binus.ac.id/",
       badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+      location: "Onsite",
+      title: "Freshmen Leader",
+      logoUrl: "/binus.png",
+      start: "Aug 2024",
+      end: "Sept 2024",
+      description: (
+        <>
+          As a Freshmen Leader (FL) for Binusian 2028, I help new students
+          (referred to as Freshmen) navigate and adapt to the campus environment
+          through various orientation programs before the start of the first
+          semester. These include the Orientation & Transition Program (OTP),
+          Week of Welcoming (WoW), and Academic Experience (AE), culminating in
+          their official student inauguration. My role involves guiding freshmen
+          to:
+          <br />
+          <br />
+          My responsibilities include:
+          <ul>
+            <li>- Familiarize themselves with the campus environment.</li>
+            <li>
+              - Learn and apply Binusian Values ​​and the Binus Graduate
+              Attributes (BGA), crucial for their learning journey.
+            </li>
+            <li>
+              - Build rapport and maintain strong connections with freshmen.
+            </li>
+            <li>
+              - Ensure freshmen adhere to campus policies and smoothly
+              participate in university activities.
+            </li>
+          </ul>
+          <br />
+        </>
+      ),
     },
     {
-      company: "Lime",
-      href: "https://li.me/",
+      company: "Keluarga Mahasiswa Buddhis Dhammavaddhana",
+      href: "https://www.kmbd.info/",
       badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
+      location: "Indonesia",
+      title: "Coordinator of Public Relations",
+      logoUrl: "/kmbd.png",
+      start: "March 2024",
+      end: "Sept 2024",
+      description: (
+        <>
+          As the Coordinator for the Welcoming Party within the Public Relations
+          Division, I lead strategic communication initiatives and event usher
+          coordination to enhance community engagement, leveraging my technical
+          skills to streamline operations and improve digital outreach. Key
+          responsibilities include:
+          <br />
+          <br />
+          My responsibilities include:
+          <ul>
+            <li>
+              - Event Planning & Management: Orchestrate the logistics and
+              execution of large-scale events, integrating project management
+              tools to ensure seamless coordination across multiple teams.
+            </li>
+            <li>
+              - Data Management: Utilize data-driven strategies for managing
+              participant information, employing Google Sheets, Excel, and
+              Python scripts to efficiently track, organize, and analyze event
+              registration and attendee feedback.
+            </li>
+          </ul>
+          <br />
+          Additionally, as an FL, I am responsible for overseeing the smooth
+          execution of the First Year Program (FYP), leading and supporting the
+          freshmen throughout the process, and helping them develop key skills
+          like communication, planning, collaboration, and creative thinking.
+        </>
+      ),
     },
     {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
+      company: "Ureeka",
+      href: "https://socs.binus.ac.id/ureeka/",
       badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+      location: "Indonesia",
+      title: "Activist",
+      logoUrl: "/ureeka.png",
+      start: "Aug 2024",
+      end: "Now",
+      description: (
+        <>
+          Ureeka focuses on software development and holds various trainings on
+          Frontend and Backend Developers. Ureeka also assisted students who are
+          willing to strive for competitions.
+          <br />
+          <br />
+          <ul>
+            <li>- Learned Backend and CRUD using PHP, MySQL, and Laravel</li>
+            <li>
+              - Created an API using Postman API for Back End documentation.
+            </li>
+          </ul>
+          <br />
+        </>
+      ),
     },
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
+      school: "Bina Nusantara University",
+      href: "https://binus.ac.id",
+      degree: "Computer Science Undergraduate",
+      logoUrl: "/binus.png",
       start: "2023",
-      end: "2024",
+      end: "2027",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      school: "SMA Education",
+      href: "#",
+      degree: "High School Diploma, Natural Science",
+      logoUrl: "/edu21.png",
+      start: "2020",
+      end: "2023",
     },
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Willify",
+      href: "https://mikekomari.github.io/Willify_Final_Project_HCI/",
+      dates: "Jan 2024 - March 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
+        "I developed an e-commerce website for selling music, similar to Apple Music, using pure HTML, CSS, and JavaScript. This project, while not my best work, has made me immensely proud of how far I've come in web development. The primary objective was to create a fully functional and visually appealing website that allows users to browse and purchase music.",
+      technologies: ["HTML", "CSS", "Javascript"],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
+          href: "https://mikekomari.github.io/Willify_Final_Project_HCI/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/MikeKomari/Willify_Final_Project_HCI",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/willify.png",
+      video: "",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "areyouokay.",
+      href: "https://mikekomari.github.io/areyouokay./",
+      dates: "Sept 2023 - Dec 2023",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
+        "As part of my Program Design Method course, were tasked to create a fully functional website. We chose to create a medical website similar to halodoc but instead of doctors, our website hires psychologists. I serve as the Frontend Developer. I have never code for a web development before, this project alone opened my world towards web development.",
+      technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://mikekomari.github.io/areyouokay./",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/MikeKomari/areyouokay.",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/areyouokay.png",
+      video: "",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
+      title: "World-University",
+      href: "https://world-university-bncc.vercel.app/",
+      dates: "July 2024 - July 2024",
+      active: true,
+      description:
+        "Final project of a Web Development Bootcamp using React and Axios",
+      technologies: ["React", "Axios", "Tailwind"],
+      links: [
+        {
+          type: "Website",
+          href: "https://world-university-bncc.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/MikeKomari/WorldUniversityBNCC",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/worlduniversitybncc.png",
+      video: "",
+    },
+    {
+      title: "Snake Game",
+      href: "#",
       dates: "April 2023 - March 2024",
       active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
+      description: "Mini Project of Learning OOP with Raylib library in C++",
+      technologies: ["C++", "Raylib", "Object Oriented Programming"],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "#",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/MikeKomari/SnakeGame-usingRaylib",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      image: "/snakegame.png",
+      video: "",
     },
   ],
   hackathons: [
